@@ -10,8 +10,8 @@ MAX_WISDOM_LEN = 80
 
 NOTIFY_CMD = '''
 on run argv
-  say (item 2 of argv) using "Alex" speaking rate 200 pitch 90 modulation 60
   display notification (item 2 of argv) with title (item 1 of argv)
+  say (item 2 of argv) using "Alex" speaking rate 200 pitch 90 modulation 60
 end run
 '''
 
